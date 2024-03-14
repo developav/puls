@@ -519,7 +519,7 @@ li {
 ._customer__advantages-group-card-img {
   z-index: 1;
   position: absolute;
-  background-image: url("/image/3000.png");
+  background-image: url("../image/3000.png");
   background-repeat: no-repeat;
   top: 0px;
   left: 56px;
@@ -529,7 +529,7 @@ li {
 ._customer__advantages-group-card-img2 {
   z-index: 1;
   position: absolute;
-  background-image: url("/image/2500.png");
+  background-image: url("../image/2500.png");
   background-repeat: no-repeat;
   top: 7px;
   left: 71px;
@@ -539,7 +539,7 @@ li {
 ._customer__advantages-group-card-img3 {
   z-index: 1;
   position: absolute;
-  background-image: url("/image/1.png");
+  background-image: url("../image/1.png");
   background-repeat: no-repeat;
   top: 9px;
   left: -25px;
@@ -563,16 +563,16 @@ li {
   height: 100px;
 }
 ._customer__advantages-group-service-text:nth-child(1) {
-  background-image: url("/image/mantag.png");
+  background-image: url("../image/mantag.png");
 }
 ._customer__advantages-group-service-text:nth-child(2) {
-  background-image: url("/image/like.png");
+  background-image: url("../image/like.png");
 }
 ._customer__advantages-group-service-text:nth-child(3) {
-  background-image: url("/image/time.png");
+  background-image: url("../image/time.png");
 }
 ._customer__advantages-group-service-text:nth-child(4) {
-  background-image: url("/image/taxi.png");
+  background-image: url("../image/taxi.png");
 }
 
 * {
