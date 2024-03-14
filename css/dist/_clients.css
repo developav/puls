@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f9f9fd;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #18aaaa;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+._customer-container {
+  max-width: 1146px;
+  margin: 0 auto;
+  padding: 0 26px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cls-1 {
+  fill: #f98900;
+}
+
+._customer__clients-head {
+  font-size: 26px;
+  font-weight: bold;
+  padding-left: 30px;
+  margin-bottom: 40px;
+  background-image: url("../image/el1.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+._customer__clients-img {
+  transition: transform 0.3s linear;
+}
+._customer__clients-img:hover {
+  transform: scale(1.2);
+}
+
+.mySwiper1 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+  display: block;
+}
+
+.mySwiper1 {
+  padding: 0 50px;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 95px;
+}
+
+.swip-sec-next, .swiper-rtl .swip-sec-prev {
+  right: var(--swiper-navigation-sides-offset, 10px);
+  left: auto;
+  transition: transform 0.3s;
+}
+.swip-sec-next:hover, .swiper-rtl .swip-sec-prev:hover {
+  transform: scale(1.5);
+}
+
+.swip-sec-next, .swip-sec-prev {
+  position: absolute;
+  top: var(--swiper-navigation-top-offset, 34%);
+  width: calc(var(--swiper-navigation-size) / 44* 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+
+.swip-sec-prev, .swiper-rtl .swip-sec-next {
+  left: var(--swiper-navigation-sides-offset, 10px);
+  right: auto;
+  transition: transform 0.3s;
+}
+.swip-sec-prev:hover, .swiper-rtl .swip-sec-next:hover {
+  transform: scale(1.5);
+}

@@ -1,0 +1,17 @@
+._customer {
+    &__about{
+        padding-top: 30px;
+        &-group{
+            margin-bottom: 80px;
+            padding: 30px 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f2f2f2;
+        }
+        &-text{
+            padding: 0px 30px;
+        }
+    }
+}

@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+  background-color: #f9f9fd;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #18aaaa;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f9f9fd;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+._customer-container {
+  max-width: 1146px;
+  margin: 0 auto;
+  padding: 0 26px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cls-1 {
+  fill: #f98900;
+}
+
+._customer__price-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("../image/bg_sectionv2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 30px;
+}
+._customer__price-block-call {
+  max-width: 50%;
+}
+._customer__price-block-head {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+._customer__price-block-text {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+._customer__price-block-link {
+  font-family: "Roboto-Light";
+  padding: 15px 20px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 100;
+  border-radius: 50px;
+  background: linear-gradient(#ff7500, #ffa600);
+  border: 2px solid #ff9100;
+  transition: background 0.3s linear, color 0.3s linear;
+}
+._customer__price-block-link:nth-child(2) {
+  background: inherit;
+  color: #666666;
+  border: 2px solid #ff9100;
+  transition: background 0.3s linear, color 0.3s linear;
+}
+._customer__price-block-link:nth-child(2):hover {
+  background: linear-gradient(#ff7500, #ffa600);
+  color: #ffffff;
+}
+._customer__price-block-link:hover {
+  background: inherit;
+  color: #ff7500;
+}

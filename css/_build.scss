@@ -1,0 +1,59 @@
+@import'_common.scss';
+._customer {
+    &__build{
+        &-head{
+        @include head();
+           padding-left: 30px;
+           margin-bottom: 40px;
+           background-image: url('../image/el1.png');
+           background-repeat: no-repeat;
+           background-position: center left;
+        }
+        &-group{
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &_block {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                max-width: 48%;
+            }
+            &-icon{
+                width: 20%;
+            }
+            &-text{
+                width: 75%;
+            }
+            &-head{
+                margin-bottom: 15px;
+                &-link{
+                    color: black;
+                    transition: color 0.3s;
+                    &:hover{
+                        cursor: pointer;
+                        color: #ff8300;
+                    }
+                   }
+            }
+            &-subhead {
+                line-height: 24px;
+                font-size: 16px;
+            }
+            &-description{
+                line-height: 24px;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            &-item{
+                font-size: 16px;
+                line-height: 24px;
+                list-style-type: disc;
+                color: #666666;
+            }
+        }
+    }
+}

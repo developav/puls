@@ -1,0 +1,99 @@
+@import'_common.scss';
+._customer{
+    &__advantages{
+        &-head{
+            @include head();
+            padding-left: 30px;
+            margin-bottom: 40px;
+            background-image: url('../image/el1.png');
+            background-repeat: no-repeat;
+            background-position: center left;
+        }
+        &-group{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 50px 40px;
+            &-card{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                &-more{
+                    z-index: 20;
+                    font-size: 14px;
+                    color: #666666;
+                    font-family: 'Roboto-Light';
+                    font-weight: lighter;
+                }
+                &-number{
+                    position: relative;
+                    font-size: 104px;
+                    color: #73c6fd;
+                    text-shadow: 9px 0px 4px #73b0dd;
+                    z-index: 20;
+                    margin-bottom: 30px;
+                }
+                &-img{
+                    z-index: 1;
+                    position: absolute;
+                    background-image: url('/image/3000.png');
+                    background-repeat: no-repeat;
+                    top: 0px;
+                    left: 56px;
+                    width: 182px;
+                    height: 131px;
+                }
+                &-img2{
+                    z-index: 1;
+                    position: absolute;
+                    background-image: url('/image/2500.png');
+                    background-repeat: no-repeat;
+                    top: 7px;
+                    left: 71px;
+                    width: 182px;
+                    height: 131px;
+                }
+                &-img3{
+                    z-index: 1;
+                    position: absolute;
+                    background-image: url('/image/1.png');
+                    background-repeat: no-repeat;
+                    top: 9px;
+                    left: -25px;
+                    width: 111px;
+                    height: 131px;
+                }
+                &-result{
+                    font-size: 16px;
+                    letter-spacing: 0;
+                }
+            }
+            &-service{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 100px;
+                &-text{
+                    padding: 30px 0 0 120px;
+                    background-repeat: no-repeat;
+                    max-width: 24%;
+                    height: 100px;
+                    &:nth-child(1){
+                        background-image: url('/image/mantag.png');
+                    }
+                    &:nth-child(2){
+                        background-image: url('/image/like.png');
+                    }
+                    &:nth-child(3){
+                        background-image: url('/image/time.png');
+                    }
+                    &:nth-child(4){
+                        background-image: url('/image/taxi.png');
+                    }
+                }
+            }
+        }
+    }
+}

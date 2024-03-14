@@ -1,0 +1,15 @@
+._customer__about {
+  padding-top: 30px;
+}
+._customer__about-group {
+  margin-bottom: 80px;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+._customer__about-text {
+  padding: 0px 30px;
+}

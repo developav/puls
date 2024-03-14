@@ -1,0 +1,130 @@
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  ._customer__build-group {
+    flex-direction: column;
+  }
+  ._customer__build-group_block {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  ._customer__build-group_block:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  ._customer__price-block {
+    flex-direction: column;
+    background-size: cover;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+  }
+  ._customer__price-block-call {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  ._customer__card-group {
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 370px;
+  }
+  ._customer__card-group-card {
+    max-width: 100%;
+  }
+
+  ._customer__advantages-group {
+    flex-direction: column;
+  }
+  ._customer__advantages-group-card-img {
+    left: 40%;
+  }
+  ._customer__advantages-group-card-img2 {
+    left: 44%;
+  }
+  ._customer__advantages-group-card-img3 {
+    left: 44%;
+  }
+  ._customer__advantages-group-service {
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  ._customer__advantages-group-service-text {
+    max-width: 34%;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+  .swiper {
+    height: 400px;
+    margin-bottom: 75px;
+  }
+
+  ._customer__build-group {
+    flex-direction: column;
+  }
+  ._customer__build-group_block {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  ._customer__build-group_block:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  ._customer__price-block {
+    flex-direction: column;
+    background-size: cover;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+  }
+  ._customer__price-block-call {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  ._customer__price-block-links {
+    display: flex;
+    flex-direction: column;
+  }
+  ._customer__price-block-link {
+    text-align: center;
+  }
+  ._customer__price-block-link:first-child {
+    margin-bottom: 20px;
+  }
+
+  ._customer__card-group {
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  ._customer__card-group-card {
+    max-width: 100%;
+  }
+
+  ._customer__advantages-group {
+    flex-direction: column;
+  }
+  ._customer__advantages-group-card-img {
+    left: 40%;
+  }
+  ._customer__advantages-group-card-img2 {
+    left: 44%;
+  }
+  ._customer__advantages-group-card-img3 {
+    left: 44%;
+  }
+  ._customer__advantages-group-service {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  ._customer__advantages-group-service-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  ._customer__about-group {
+    margin-bottom: 40px;
+    padding: 20px 20px;
+    flex-direction: column;
+  }
+}

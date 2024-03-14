@@ -1,0 +1,122 @@
+@media only screen and (min-width: 600px) and (max-width: 1023px){
+    ._customer__build-group{
+        flex-direction: column;
+        &_block {
+            max-width: 100%;
+            margin-bottom: 30px;
+            &:nth-child(2){
+                margin-bottom: 0;
+            }
+        }
+    }
+    ._customer__price-block{
+        flex-direction: column;
+        background-size: cover;
+        padding: 50px 20px;
+        margin-bottom: 50px;
+        &-call {
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+    ._customer__card-group{
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        min-height: 370px;
+        &-card{
+            max-width: 100%;
+        }
+    }
+    ._customer__advantages-group {
+        flex-direction: column;
+        &-card-img {
+            left: 40%;
+        }
+        &-card-img2 {
+            left: 44%;
+        }
+        &-card-img3 {
+            left: 44%;
+        }
+        &-service {
+            width: 100%;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            &-text{
+                max-width: 34%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 599px){
+    .swiper {
+        height: 400px;
+        margin-bottom: 75px;
+    }
+    ._customer__build-group{
+        flex-direction: column;
+        &_block {
+            max-width: 100%;
+            margin-bottom: 30px;
+            &:nth-child(2){
+                margin-bottom: 0;
+            }
+        }
+    }
+    ._customer__price-block{
+        flex-direction: column;
+        background-size: cover;
+        padding: 50px 20px;
+        margin-bottom: 50px;
+        &-call {
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+        &-links{
+            display: flex;
+            flex-direction: column;
+        }
+        &-link{
+            text-align: center;
+            &:first-child{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    ._customer__card-group{
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        &-card{
+            max-width: 100%;
+        }
+    }
+    ._customer__advantages-group {
+        flex-direction: column;
+        &-card-img {
+            left: 40%;
+        }
+        &-card-img2 {
+            left: 44%;
+        }
+        &-card-img3 {
+            left: 44%;
+        }
+        &-service {
+            width: 100%;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            &-text{
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    ._customer__about-group {
+        margin-bottom: 40px;
+        padding: 20px 20px;
+        flex-direction: column;
+    }
+}

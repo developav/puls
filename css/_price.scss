@@ -1,0 +1,53 @@
+@import'_common.scss';
+._customer {
+    &__price{
+        &-block {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-image: url('../image/bg_sectionv2.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 30px;
+
+            &-call{
+                max-width: 50%;
+            }
+            &-head{
+                margin-bottom: 10px;
+               @include head();
+            }
+            &-text{
+                font-size: 16px;
+                margin-bottom: 40px;
+            }
+            &-link{
+                font-family: 'Roboto-Light';
+                padding: 15px 20px;
+                font-size: 14px;
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: 100;
+                border-radius: 50px;
+                &:nth-child(2) {
+                    background: inherit;
+                    color: #666666;
+                    border: 2px solid #ff9100;
+                    transition: background 0.3s linear, color 0.3s linear;
+                    &:hover{
+                        background: linear-gradient(#ff7500,#ffa600);
+                        color: #ffffff;
+                    }
+                }                
+                background: linear-gradient(#ff7500,#ffa600);
+                border: 2px solid #ff9100;
+                transition: background 0.3s linear, color 0.3s linear;
+                &:hover{
+                    background:inherit;
+                    color:#ff7500;
+                }
+            }
+           
+        }
+    }
+}

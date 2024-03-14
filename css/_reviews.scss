@@ -1,0 +1,46 @@
+@import'_common.scss';
+._customer{
+  &__reviews{
+    &-head{
+      @include head();
+      padding-left: 30px;
+      margin-bottom: 50px;
+      background-image: url('../image/el1.png');
+      background-repeat: no-repeat;
+      background-position: center left;
+    }
+      &-group{
+        transition: transform 0.3s linear;
+        &:hover{
+            transform: scale(0.9);
+        }
+    }
+    }
+}
+
+.swiper {
+    padding: 0 50px;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 95px;
+  }
+  .cls-2 {
+    fill-rule: evenodd;
+    opacity: 0.3;
+  }
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '';
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: '';
+}
+.swiper-button-next svg, .swiper-button-prev svg {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  transform-origin: center;
+  transition: transform 0.3s;
+    &:hover{
+        transform: scale(1.5);
+    }
+}

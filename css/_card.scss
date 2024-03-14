@@ -1,0 +1,102 @@
+@import'_common.scss';
+._customer{
+    &__card{
+        &-head{
+            @include head();
+            padding-left: 30px;
+            margin-bottom: 40px;
+            background-image: url('../image/el1.png');
+            background-repeat: no-repeat;
+            background-position: center left;
+        }
+        &-group{
+            padding: 0 0 60px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            min-height: 500px;
+            &-card{
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 20px;
+                max-width: 24%;
+                overflow: hidden;
+                transition: transform 0.4s, height 0.3s, display 0.3s, box-shadow 0.3s, padding 0.3s;
+                &:hover{
+                    padding: 10px;
+                    box-shadow: 0px 0px 9px 6px #c9c8c8;
+                    border-radius: 5px;
+                    height: auto;
+                }
+                &-head{
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                &-link{
+                    display: block;
+                    margin-bottom: 15px;
+                    color: #707070;
+                }
+                &-button{
+                    align-self: center;
+                    display: none;
+                    border-radius: 30px;
+                    padding: 15px 35px;
+                    font-size: 18px;
+                    font-weight: lighter;
+                    font-family: 'Roboto-Light';
+                    color: #ffffff;
+                    border: none;
+                    background: linear-gradient(#ffa600,#ff7500);
+                    transition: background 0.3s linear, color 0.3s linear;
+                    &:hover {
+                        color: #ffffff;
+                        background: linear-gradient(#ffffff,#0064c1);
+                    }
+                }
+                &_group{
+                    &-links{
+                     max-width: 60%;
+                        font-family: 'Roboto-Light';
+                        font-size: 14px;
+                        color: #ffffff;
+                        font-weight: lighter;
+                        border-radius: 5px;
+                        margin-bottom: 20px;
+                        transition: background-color 0.3s linear, border 0.3s linear, color 0.3s linear;
+                        &:nth-child(2) {
+                            padding: 5px 5px;
+                            background-color: inherit;
+                            border: 1px solid #666666;
+                            color: #666666;
+                            transition: background-color 0.3s linear, border 0.3s linear, color 0.3s linear;
+                            &:hover{
+                                color: #ffffff;
+                                background-color: #0064c1;
+                            }
+                        }       
+                        padding: 5px 10px;
+                        background-color: #0064c1;
+                        &:hover{
+                            color: #0064c1;
+                            background-color: inherit;
+                            border: 1px solid #666666;
+                        }
+                    }
+                    &-link{
+                        margin-bottom: 15px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+._customer__card-group-card:hover ._customer__card-group-card-button{
+    display: block;
+}

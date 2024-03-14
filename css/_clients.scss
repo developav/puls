@@ -1,0 +1,66 @@
+@import'_common.scss';
+._customer{
+    &__clients{
+        &-head{
+            @include head();
+            padding-left: 30px;
+            margin-bottom: 40px;
+            background-image: url('../image/el1.png');
+            background-repeat: no-repeat;
+            background-position: center left;
+        }
+        &-img{
+            transition: transform 0.3s linear;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+  .mySwiper1 {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+.mySwiper1 {
+    padding: 0 50px;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 95px;
+  }
+.swip-sec-next, .swiper-rtl .swip-sec-prev {
+    right: var(--swiper-navigation-sides-offset, 10px);
+    left: auto;
+    transition: transform 0.3s;
+    &:hover{
+        transform: scale(1.5);
+    }
+}
+
+.swip-sec-next, .swip-sec-prev {
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 34%);
+    width: calc(var(--swiper-navigation-size) / 44* 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.swip-sec-prev, .swiper-rtl .swip-sec-next {
+    left: var(--swiper-navigation-sides-offset, 10px);
+    right: auto;
+    transition: transform 0.3s;
+    &:hover{
+        transform: scale(1.5);
+    }
+}
